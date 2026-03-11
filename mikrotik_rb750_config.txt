@@ -1,0 +1,109 @@
+# ==============================================================
+# SCRIPT DE CONFIGURACAO - MikroTik RB750
+# RouterOS
+# Cenario: WAN2=Link para HP MSR1002 | Tunel GRE | LAN clientes
+# ==============================================================
+# MAPA DE INTERFACES:
+#   ether1     = WAN2 - Link para HP MSR1002 (10.37.151.2/24)
+#   ether2     = Gerencia (192.168.88.1/24)
+#   ether3~5   = LAN clientes via bridge-lan (192.168.100.1/24)
+#   gre-hp-msr = Tunel GRE para HP MSR1002 (172.16.0.2/30)
+# ==============================================================
+
+# --------------------------------------------------------------
+# ENDERECOS IP DAS INTERFACES FISICAS
+# --------------------------------------------------------------
+
+/ip address add address=192.168.88.1/24 interface=ether2 comment="GERENCIA"
+/ip address add address=10.37.151.2/24 interface=ether1 comment="WAN2-HP-MSR"
+
+# --------------------------------------------------------------
+# BRIDGE LAN - Agrupa ether3, ether4, ether5 para clientes
+# ATENCAO: ether2 NAO entra na bridge (e a porta de gerencia)
+# --------------------------------------------------------------
+
+/interface bridge add name=bridge-lan comment="LAN-CLIENTES"
+/interface bridge port add bridge=bridge-lan interface=ether3
+/interface bridge port add bridge=bridge-lan interface=ether4
+/interface bridge port add bridge=bridge-lan interface=ether5
+/ip address add address=192.168.100.1/24 interface=bridge-lan comment="LAN-CLIENTES"
+
+# --------------------------------------------------------------
+# TUNEL GRE - Conectividade com HP MSR1002
+# local-address  = IP do ether1 do MikroTik na WAN2
+# remote-address = IP da GE0/4 do HP MSR na WAN2
+# --------------------------------------------------------------
+
+/interface gre add \
+  name=gre-hp-msr \
+  local-address=10.37.151.2 \
+  remote-address=10.37.25.6 \
+  mtu=1476 \
+  clamp-tcp-mss=yes \
+  comment="Tunel-GRE-HP-MSR1002"
+
+/ip address add address=172.16.0.2/30 interface=gre-hp-msr comment="TUNEL-GRE"
+
+# --------------------------------------------------------------
+# ROTAS
+# --------------------------------------------------------------
+
+# Rota padrao - toda internet via tunel GRE para HP MSR
+/ip route add dst-address=0.0.0.0/0 gateway=172.16.0.1 comment="internet-via-tunel-HP"
+
+# Rota para alcançar o HP MSR pela WAN2
+/ip route add dst-address=10.37.25.0/24 gateway=10.37.151.1 comment="rota-WAN2-HP"
+
+# --------------------------------------------------------------
+# NAT - Masquerade saindo pelo tunel GRE
+# --------------------------------------------------------------
+
+/ip firewall nat add \
+  chain=srcnat \
+  out-interface=gre-hp-msr \
+  action=masquerade \
+  comment="NAT-tunel-GRE"
+
+# --------------------------------------------------------------
+# MANGLE - Correcao de MTU/MSS para evitar lentidao no tunel GRE
+# Resolve problema de paginas lentas ou com falha intermitente
+# --------------------------------------------------------------
+
+/ip firewall mangle add \
+  chain=forward \
+  protocol=tcp \
+  tcp-flags=syn \
+  out-interface=gre-hp-msr \
+  action=change-mss \
+  new-mss=1436 \
+  comment="MSS-CLAMP-GRE"
+
+# --------------------------------------------------------------
+# DHCP - Distribuicao de IP para clientes LAN
+# --------------------------------------------------------------
+
+/ip pool add name=pool-lan ranges=192.168.100.100-192.168.100.200
+
+/ip dhcp-server add \
+  name=dhcp-lan \
+  interface=bridge-lan \
+  address-pool=pool-lan \
+  disabled=no
+
+/ip dhcp-server network add \
+  address=192.168.100.0/24 \
+  gateway=192.168.100.1 \
+  dns-server=8.8.8.8,8.8.4.4
+
+# ==============================================================
+# VERIFICACOES POS-CONFIGURACAO
+# ==============================================================
+# /ip address print              -> ver todos os IPs configurados
+# /interface gre print           -> tunel deve ter flag R (running)
+# /ip route print                -> ver rotas ativas
+# /ip firewall nat print         -> ver regra NAT
+# /ip firewall mangle print      -> ver regra MSS clamp
+# /ip dhcp-server print          -> ver DHCP ativo
+# /ping 172.16.0.1 count=5       -> testar tunel com HP MSR
+# /ping 8.8.8.8 count=5         -> testar internet pelo tunel
+# ==============================================================

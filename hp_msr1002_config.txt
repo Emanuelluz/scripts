@@ -1,0 +1,77 @@
+# ==============================================================
+# SCRIPT DE CONFIGURACAO - HP MSR1002-4
+# Comware Version 7.1.064, Release 0707P24
+# Cenario: WAN1=Internet | WAN2=Link entre unidades | Tunel GRE para MikroTik RB750
+# ==============================================================
+# MAPA DE INTERFACES:
+#   GE0/0  = WAN1 - Internet Principal (177.92.15.102)
+#   GE0/4  = WAN2 - Link entre unidades (10.37.25.6)
+#   Vlan1  = LAN local - Switch interno GE0/1~GE0/3 (192.168.0.1)
+#   Tun1   = Tunel GRE para MikroTik RB750 (172.16.0.1)
+# ==============================================================
+
+system-view
+
+# --------------------------------------------------------------
+# INTERFACE WAN1 - Internet Principal
+# --------------------------------------------------------------
+interface GigabitEthernet 0/0
+ description WAN1-INTERNET
+ nat outbound 2000
+ quit
+
+# --------------------------------------------------------------
+# INTERFACE WAN2 - Link entre unidades fisicas
+# --------------------------------------------------------------
+interface GigabitEthernet 0/4
+ description WAN2-LINK-UNIDADE-REMOTA
+ quit
+
+# --------------------------------------------------------------
+# TUNEL GRE - Conectividade com MikroTik RB750
+# Sintaxe obrigatoria Comware 7: "interface TunnelX mode gre"
+# --------------------------------------------------------------
+interface Tunnel1 mode gre
+ description TUNEL-GRE-PARA-RB750
+ ip address 172.16.0.1 255.255.255.252
+ source GigabitEthernet 0/4
+ destination 10.37.151.2
+ mtu 1476
+ quit
+
+# --------------------------------------------------------------
+# ACL - Permitir LAN local e LAN remota (MikroTik) usar NAT
+# Sintaxe Comware 7: "acl basic" (nao "acl number")
+# --------------------------------------------------------------
+acl basic 2000
+ rule 5 permit source 192.168.0.0 0.0.0.255
+ rule 10 permit source 192.168.100.0 0.0.0.255
+ quit
+
+# --------------------------------------------------------------
+# ROTAS ESTATICAS
+# --------------------------------------------------------------
+
+# Rota padrao - Internet via WAN1
+# ATENCAO: substitua 177.92.15.1 pelo gateway real da WAN1
+ip route-static 0.0.0.0 0.0.0.0 177.92.15.1
+
+# Rota para LAN remota do MikroTik via tunel GRE
+ip route-static 192.168.100.0 255.255.255.0 172.16.0.2
+
+# --------------------------------------------------------------
+# SALVAR CONFIGURACAO
+# --------------------------------------------------------------
+quit
+save force
+
+# ==============================================================
+# VERIFICACOES POS-CONFIGURACAO
+# ==============================================================
+# display interface Tunnel1              -> tunel deve estar UP/UP
+# display ip routing-table              -> ver rotas ativas
+# display nat outbound                  -> ver NAT aplicado
+# display acl 2000                      -> ver ACL criada
+# ping 172.16.0.2                       -> testar tunel com MikroTik
+# ping 8.8.8.8                          -> testar internet
+# ==============================================================

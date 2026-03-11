@@ -1,0 +1,191 @@
+# ==============================================================
+# GUIA DE CONFIGURACAO - pfSense (substituto do HP MSR1002)
+# Configuracao via Interface Grafica (WebGUI)
+# Cenario: WAN1=Internet | WAN2=Link entre unidades | Tunel GRE para MikroTik RB750
+# ==============================================================
+# MAPA DE INTERFACES:
+#   em0 (WAN)          = WAN1 - Internet Principal (177.92.15.102)
+#   em1 (OPT1/WAN2)    = WAN2 - Link entre unidades (10.37.25.6)
+#   em2 (LAN)          = LAN local (192.168.0.1)
+#   greX (TUNEL_MKTIK) = Tunel GRE para MikroTik RB750 (172.16.0.1)
+# ==============================================================
+# REQUISITOS MINIMOS DA VM:
+#   CPU:  1 vCPU
+#   RAM:  1 GB
+#   DISK: 8 GB
+#   NICs: minimo 2 (WAN1 + WAN2) ou 3 (WAN1 + WAN2 + LAN)
+# ==============================================================
+
+
+# ==============================================================
+# ETAPA 1 - CONFIGURAR INTERFACES FISICAS
+# ==============================================================
+# Caminho: Interfaces > Interface Assignments
+
+# WAN (em0) - Internet
+#   Interfaces > WAN
+#   IPv4 Config: Static
+#   IPv4 Address: 177.92.15.102 / 24
+#   Upstream Gateway: 177.92.15.1
+
+# OPT1 (em1) - WAN2 Link entre unidades
+#   Interfaces > OPT1
+#   Enable: marcado
+#   Description: WAN2
+#   IPv4 Config: Static
+#   IPv4 Address: 10.37.25.6 / 24
+
+# LAN (em2) - Rede local
+#   Interfaces > LAN
+#   IPv4 Config: Static
+#   IPv4 Address: 192.168.0.1 / 24
+
+
+# ==============================================================
+# ETAPA 2 - CRIAR TUNEL GRE
+# ==============================================================
+# Caminho: Interfaces > GRE > Add
+
+# Parent Interface:  WAN2 (em1)
+# GRE Remote Addr:   10.37.151.2        <- IP WAN2 do MikroTik
+# Tunnel Local Addr: 172.16.0.1
+# Tunnel Remote Addr:172.16.0.2
+# Tunnel Subnet:     30
+# Description:       Tunel-GRE-MikroTik
+# Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 3 - ATRIBUIR INTERFACE AO TUNEL GRE
+# ==============================================================
+# Caminho: Interfaces > Interface Assignments
+#   Network Port: selecionar a interface gre0 criada
+#   Clicar em Add
+#   Vai aparecer como OPT2
+
+# Caminho: Interfaces > OPT2
+#   Enable: marcado
+#   Description: TUNEL_MIKROTIK
+#   IPv4 Config: Static
+#   IPv4 Address: 172.16.0.1 / 30
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 4 - ROTAS ESTATICAS
+# ==============================================================
+# Caminho: System > Routing > Static Routes > Add
+
+# Rota para LAN remota do MikroTik:
+#   Destination Network: 192.168.100.0 / 24
+#   Gateway:             172.16.0.2
+#   Description:         LAN-MikroTik-via-GRE
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 5 - NAT (OUTBOUND)
+# ==============================================================
+# Caminho: Firewall > NAT > Outbound
+#   Mode: Hybrid Outbound NAT
+
+# Adicionar regra manual:
+#   Interface:   WAN
+#   Source:      192.168.0.0/24   (LAN local)
+#   Translation: Interface Address
+#   Description: NAT-LAN-local
+#   Salvar
+
+# Adicionar regra manual:
+#   Interface:   WAN
+#   Source:      192.168.100.0/24  (LAN MikroTik via tunel)
+#   Translation: Interface Address
+#   Description: NAT-LAN-MikroTik
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 6 - FIREWALL (REGRAS NO TUNEL)
+# ==============================================================
+# Caminho: Firewall > Rules > TUNEL_MIKROTIK > Add
+
+# Regra para permitir trafego dos clientes do MikroTik:
+#   Action:      Pass
+#   Interface:   TUNEL_MIKROTIK
+#   Protocol:    Any
+#   Source:      192.168.100.0/24
+#   Destination: Any
+#   Description: Permitir-LAN-MikroTik
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 7 - MSS CLAMP (CORRECAO MTU GRE)
+# ==============================================================
+# Caminho: System > Advanced > Networking
+#   Network Interfaces:
+#   [x] Disable hardware checksum offload
+#   Salvar
+
+# Caminho: VPN > (ou via System > Advanced > Firewall & NAT)
+# Adicionar regra mangle via Firewall > Rules > Floating:
+#   Action:         Match
+#   Interface:      TUNEL_MIKROTIK
+#   Direction:      Out
+#   Protocol:       TCP
+#   TCP Flags:      SYN
+#   OS:             Any
+#   Advanced > TCP MSS: 1436
+#   Description:    MSS-CLAMP-GRE-MikroTik
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 8 - CAPTIVE PORTAL (OPCIONAL)
+# ==============================================================
+# Caminho: Services > Captive Portal > Add Zone
+
+# Zone name:   MIKROTIK_ZONE
+# Interfaces:  TUNEL_MIKROTIK   <- IMPORTANTE: selecionar interface do tunel
+# Enable:      marcado
+
+# Autenticacao (escolher um):
+#   [A] Local Users:
+#       Users > Add user/password
+#
+#   [B] RADIUS:
+#       Authentication Server: IP do servidor RADIUS
+#       Port: 1812
+#       Shared Secret: senha
+#
+#   [C] Vouchers:
+#       Enable Vouchers: marcado
+#       Gerar vouchers com tempo limitado
+
+# Configuracoes opcionais:
+#   Idle Timeout:     30 minutos
+#   Hard Timeout:     480 minutos (8 horas)
+#   Redirect URL:     URL apos login
+#   Logout popup:     marcado
+#   Salvar e Aplicar
+
+
+# ==============================================================
+# ETAPA 9 - VERIFICACOES POS-CONFIGURACAO
+# ==============================================================
+# Caminho: Diagnostics > Ping
+#   Hostname: 172.16.0.2    Interface: TUNEL_MIKROTIK  -> tunel UP
+#   Hostname: 8.8.8.8       Interface: WAN             -> internet OK
+
+# Caminho: Diagnostics > Routes
+#   Verificar rotas: 0.0.0.0/0, 192.168.100.0/24, 172.16.0.0/30
+
+# Caminho: Status > Interfaces
+#   Verificar todas as interfaces UP
+
+# Caminho: Firewall > NAT > Outbound
+#   Verificar regras NAT para LAN local e LAN MikroTik
+
+# Caminho: Services > Captive Portal > MIKROTIK_ZONE
+#   Status: verificar usuarios conectados
+# ==============================================================
