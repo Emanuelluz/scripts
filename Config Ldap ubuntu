@@ -1,0 +1,101 @@
+👉 Autenticação via LDAP, mas permissões administrativas (sudo) definidas localmente no próprio Ubuntu.
+
+A arquitetura fica assim:
+
+LDAP → controla quem pode fazer login no sistema.
+
+Ubuntu (local) → controla quem tem permissão de sudo/root.
+
+✅ Como configurar no Ubuntu
+1. Instale os pacotes necessários (SSSD recomendado)
+sudo apt update
+sudo apt install sssd sssd-tools sssd-ldap libpam-sss libnss-sss oddjob-mkhomedir
+2. Configure o SSSD para autenticar no LDAP
+
+Edite o arquivo:
+
+sudo nano /etc/sssd/sssd.conf
+
+Exemplo simples:
+
+[sssd]
+services = nss, pam
+config_file_version = 2
+domains = default
+
+[domain/default]
+id_provider = ldap
+auth_provider = ldap
+chpass_provider = ldap
+
+ldap_uri = ldap://SEU_SERVIDOR_LDAP
+ldap_search_base = dc=exemplo,dc=com
+ldap_tls_reqcert = allow
+
+cache_credentials = True
+enumerate = False
+
+fallback_homedir = /home/%u
+
+💡 Ajuste ldap_uri, ldap_search_base, e certifique-se que seu LDAP permite bind.
+
+Salve e ajuste permissões:
+
+sudo chmod 600 /etc/sssd/sssd.conf
+
+Reinicie:
+
+sudo systemctl enable --now sssd
+✅ 3. Habilitar login com LDAP (PAM)
+
+Instale o authconfig (opcional, para facilitar):
+
+sudo apt install auth-client-config
+
+Ative PAM + SSSD:
+
+sudo pam-auth-update
+
+Marque:
+
+✔ SSSD
+
+✔ Create home directory on login (mkhomedir)
+
+🔐 4. Controlar permissões ADMIN localmente (sudo)
+
+Agora vem o ponto principal:
+
+LDAP só autentica → mas você escolhe localmente quem vira admin.
+
+Para isso, basta adicionar o usuário ao grupo sudo localmente:
+
+sudo usermod -aG sudo usuario_ldap
+
+⚠ Mesmo que o usuario_ldap exista apenas no LDAP, o Ubuntu reconhece via SSSD e você pode adicioná-lo a grupos locais.
+
+📝 5. Alternativa mais limpa: criar grupo local de admins LDAP
+
+Crie um grupo local:
+
+sudo groupadd ldap-admins
+
+Adicione usuários LDAP ao grupo:
+
+sudo usermod -aG ldap-admins usuario_ldap
+
+Dê permissão no sudoers:
+
+echo "%ldap-admins ALL=(ALL) ALL" | sudo tee /etc/sudoers.d/ldap-admins
+🎯 Resultado final
+Função	Controlado por
+Login/autenticação	LDAP
+Checar senha	LDAP
+Criar/gerenciar usuários LDAP	LDAP
+Permissão sudo	LOCAL (Ubuntu)
+Membership em grupos sudo	LOCAL
+🚀 Conclusão
+
+✔ Sim, é perfeitamente possível e recomendado.
+Você autentica usuários via LDAP, mas decide no Ubuntu quem é admin ou não.
+Basta usar SSSD + sudoers locais.
