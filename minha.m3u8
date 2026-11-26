@@ -1,231 +1,458 @@
 #EXTM3U
-# Lista gerada por plugin.video.reidoscanais em 25/11/2026 23:21
+# Lista gerada por plugin.video.reidoscanais em 25/11/2026 23:31
 # URLs com token temporario: regenere quando expirarem.
 
 #EXTINF:-1 tvg-id="band" tvg-logo="https://logocanais.pics/imagens/band.png" group-title="Canais Abertos",Band (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Fhqf6tcxuhk.singularcdn.net.br%2Flive%2F019a797e-eeb8-7eda-9518-132403ccb160%2Fs1%2Fplaylist_nova-a.m3u8%3Fsjwt%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5NTY1OTY4MywibmJmIjoxNzk1NjU5NjgzLCJleHAiOjE3OTgyNTE2ODMsInVyaV9zdWIiOiIvMDE5YTc5N2UtZWViOC03ZWRhLTk1MTgtMTMyNDAzY2NiMTYwLyIsInVpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.KOdFkNyFCIZJxtSIDhD6eZ4F8mtHdJ6xCaHapJKZPLc%26uid%3D81e58da8-a1c4-4c6a-971f-b8c8a8e97141&e=.m3u8
+https://hqf6tcxuhk.singularcdn.net.br/live/019a797e-eeb8-7eda-9518-132403ccb160/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5NTY2MDI3NiwibmJmIjoxNzk1NjYwMjc2LCJleHAiOjE3OTgyNTIyNzYsInVyaV9zdWIiOiIvMDE5YTc5N2UtZWViOC03ZWRhLTk1MTgtMTMyNDAzY2NiMTYwLyIsInVpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.OqE6tGk1-GD1uzmjVZOfYdKL7zP9s3UicrchYG75N4w&uid=81e58da8-a1c4-4c6a-971f-b8c8a8e97141
 
 #EXTINF:-1 tvg-id="globo" tvg-logo="https://logocanais.pics/imagens/tvglobo.png" group-title="Canais Abertos",Globo (Globo Rio de Janeiro)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FA6EQ4usz9MEvn71l3Kv8pcOmw93UHYnjLPvi0zWQt0I%2F1795681285%2Fb7f276fe1cc3b4db%2Fglobosp%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/lwj0iE1jT7RaPb3Xw_rUVF5A4THrsMU-QPYVxzir4_4/1795681878/da69e650f3c710d3/globosp/index.m3u8
 
 #EXTINF:-1 tvg-id="redetv" tvg-logo="https://logocanais.pics/imagens/redetv.png" group-title="Canais Abertos",RedeTV! (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fnj1_DKCQ2AKDFw9O9b_Cq8gkyWrWiZg79Xltll3XHYA%2F1795681292%2Fd4ccc35812a154c5%2Fredetv%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/RQHNwfzBiwyjc_7M6kQckKjdHeufcSA1tTvEAD4776c/1795681882/3ae52dde9fd73e84/redetv/index.m3u8
 
 #EXTINF:-1 tvg-id="sbt" tvg-logo="https://logocanais.pics/imagens/sbt.png" group-title="Canais Abertos",SBT (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Fd1jvs4svzaqp8n.cloudfront.net%2FindexMobile.m3u8&e=.m3u8
+https://d1jvs4svzaqp8n.cloudfront.net/indexMobile.m3u8
 
 #EXTINF:-1 tvg-id="saborearte" tvg-logo="https://logocanais.pics/imagens/saborearte.png" group-title="Canais Abertos",Sabor e Arte (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Frz1H06jzTItmfxbMFXiXXACrrKXw6f_C1-7nJ_qrCOo%2F1795681292%2Fb22308dc8a0815c1%2Fsaborearte%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/hjRcXgzcewLn_vlyn6TSfKwcoT8uUTphMNe0OVQziN4/1795681883/bb99e352bb2f7bff/saborearte/index.m3u8
 
 #EXTINF:-1 tvg-id="aparecida" tvg-logo="https://logocanais.pics/imagens/aparecida.png" group-title="Canais Abertos",TV Aparecida (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FohEL7nQI3TMA3qY5mMM2YRunxtfNxB3TTpTEFs5jtTc%2F1795681297%2F4522c482ba1e63c8%2Faparecida%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/YYCt4GfB2-xnOq3-Dy2O5OaexhXAjbaQ3BcDk6_3ksE/1795681888/6f7a9e9b87ee2015/aparecida/index.m3u8
 
 #EXTINF:-1 tvg-id="tvcultura" tvg-logo="https://logocanais.pics/imagens/tvcultura.png" group-title="Canais Abertos",TV Cultura (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Fplayer-tvcultura.stream.uol.com.br%2Flive%2Ftvcultura.m3u8&e=.m3u8
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 
 #EXTINF:-1 tvg-id="animalplanet" tvg-logo="https://logocanais.pics/imagens/animalplanet.png" group-title="Documentários",Animal Planet (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2F7MHu4JXhMKicjJvrcB9ncQ9OwBjGMCG84-pKx3JjHKs%2F1795681283%2Fa3d3f68ceadb2ef9%2Fanimalplanet%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/p0F20JDi_t6d6w8N7RrGzgcPmz0iBxcsxrwRxq4s35U/1795681874/0357b0ded092a383/animalplanet/index.m3u8
 
 #EXTINF:-1 tvg-id="discoverychannel" tvg-logo="https://logocanais.pics/imagens/discoverychannel.webp" group-title="Documentários",Discovery Channel (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FSHuKq6nDCKi4SL-9BHNJSJNalrbRyGhAS_h9ZO_IyuQ%2F1795681284%2Fb81a961ef9059711%2Fdiscoverychannel%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/cfyGGrKyk0fEHcFKNdG2obYnFqmQcbi8kZCqN08ZEPY/1795681876/1dc7dd97c92a37d5/discoverychannel/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryscience" tvg-logo="https://logocanais.pics/imagens/discoveryscience.webp" group-title="Documentários",Discovery Science (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FpPq0zss2QzSPLUAKUACEwzRkpyZe73DUl_YiX9s9NVM%2F1795681284%2Fafce02c63d832396%2Fdiscoveryscience%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/O2qfq5aa7SjmZmdhFQ2zItCp0uT7tBlNoBIQ8Tki2YI/1795681876/9d575bcc2fb08461/discoveryscience/index.m3u8
 
 #EXTINF:-1 tvg-id="discoverytheater" tvg-logo="https://logocanais.pics/imagens/discoverytheater.png" group-title="Documentários",Discovery Theater (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FB00-SGqJgIqIkfzmLfas-XOhi9OKjPIYdZ2pQpFMOH8%2F1795681284%2F598033a61f46f75c%2Fdiscoverytheater%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/8C00oNj6FXNb6K6YaY0xABVB8kifMDySmOyoZOP_BKU/1795681876/e568999f84a73f7b/discoverytheater/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryturbo" tvg-logo="https://logocanais.pics/imagens/discoveryturbo.png" group-title="Documentários",Discovery Turbo (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FpTWI5kbT7Dt_3YB9cTtU1y3HvJKv8fFYrHGkDMLFWAo%2F1795681284%2F1d2416dabeb5e811%2Fdiscoveryturbo%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/LgmK50LoYauk7rGUdHXDXs6dQ6EG_-LTuSVM82Pb2es/1795681877/a2589d2bfb5a6551/discoveryturbo/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryworld" tvg-logo="https://logocanais.pics/imagens/discoveryworld.png" group-title="Documentários",Discovery World (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FYHvyurVrlykvvF_MhV2ViT9NqHSrJsZ6AvKtUth-mGM%2F1795681285%2Fba2f5bcb2f5a1997%2Fdiscoveryworld%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/8LnFv4e3WhMxR091T1xRGuOKU1H6oSNS0bEHiYv9dhk/1795681877/55387012cdb44a9b/discoveryworld/index.m3u8
+
+#EXTINF:-1 tvg-id="futura" tvg-logo="https://logocanais.pics/imagens/futura.png" group-title="Documentários",Futura (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|cfa82a6044c0718d09b03e0dbeb4156a:06cb6f49b64ebe067ab4952d0bede6a3
+https://a36aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/swkktyrevj/out/v1/bd2d93c0932344b6bd3599cd3edef60a/cenc.mpd
 
 #EXTINF:-1 tvg-id="history" tvg-logo="https://logocanais.pics/imagens/history.webp" group-title="Documentários",History (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FtRZktKgqyDMtkRAKcw-VDLOEvK8iIjuNmVtpnRIBplA%2F1795681287%2F93f195ff81c1fee6%2Fhistory%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/-z1uXtHD6NHvD7dcOWKNZ6SdlV8OBjE0tsaZcLDvqo8/1795681880/056973c9a9b8c355/history/index.m3u8
 
 #EXTINF:-1 tvg-id="history2" tvg-logo="https://logocanais.pics/imagens/history2.png" group-title="Documentários",History 2 (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2F2TFzrij5wubo5ahVjsQdPWE-f4GR3l4uRyrlS7SLTyg%2F1795681287%2Fb01740155940b5e2%2Fhistory2%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/B0A6WIPDr6jXMTBu5JSPITROwSRrbzhhrerI6c-d2sE/1795681880/3bed1dd1c19a8875/history2/index.m3u8
 
 #EXTINF:-1 tvg-id="ae" tvg-logo="https://logocanais.pics/imagens/ae.png" group-title="Entretenimento",AE (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fb_7s1Fc3k_qf5reye8iubeeko2grAKwnKPXURrKJ4QE%2F1795681283%2Fc037c03ea6c8ada5%2Faee%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/l18-SLWybYaGFV_jZKB4esrWH6kOfvbZmJB_lINdHQc/1795681875/30c92ee8fb84a410/aee/index.m3u8
 
 #EXTINF:-1 tvg-id="adultswim" tvg-logo="https://logocanais.pics/imagens/adultswim.png" group-title="Entretenimento",Adult Swim (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FTRTcRJPSvXTLWuxrPLykLO4fRxe41_2jN3-exYrSpPY%2F1795681283%2Fe97abe040d6eacb5%2Fadultswim%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/ddbB_Wd5zWzcipM0D7Dv2nABFkXW_jLJ1JwVxT-jyPE/1795681875/9b1e02936c3b24b6/adultswim/index.m3u8
 
 #EXTINF:-1 tvg-id="arte1" tvg-logo="https://logocanais.pics/imagens/arte1.png" group-title="Entretenimento",Arte1 (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FvlxW8Qlr-lN2jVtXjp4glyRhUA0JCpQfMe7_pqDvx8I%2F1795681283%2F1d9c2918c0c4f73b%2Farte1%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/DoUbkqVOTp0OAwgvyOZZFy4ZNkM2XSRmuAn4wOs4k8E/1795681874/12d6fe3b7ac099a0/arte1/index.m3u8
+
+#EXTINF:-1 tvg-id="bis" tvg-logo="https://logocanais.pics/imagens/bis.png" group-title="Entretenimento",BIS (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|aa5e06114fc3f799d323ca912864caa8:0b52a6da956d32f3264aa1b810b0b010
+https://a173aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/lx6lpj1gcu/out/v1/465b1cc0873f484baf978967b58f0828/cenc.mpd
+
+#EXTINF:-1 tvg-id="canaloff" tvg-logo="https://logocanais.pics/imagens/canaloff.png" group-title="Entretenimento",Canal OFF (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|1476b7cb370e3e2cb5dc07417a4e7bef:d92e9289e145f14674815ee602e57ae7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/r0gyywkof7/out/v1/3ce56dd956ae4fcb80123b970084351e/cenc.mpd
 
 #EXTINF:-1 tvg-id="curta" tvg-logo="https://logocanais.pics/imagens/curta.png" group-title="Entretenimento",Curta! (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FAshH7JRzxTR0zD9UDRByRH8SHX0-m7fPL2emiXPQHtY%2F1795681284%2Feca711f9f0495e01%2Fcurta%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/ex_cudyjkplNkYzo9ZVPXHi1RvzxyE3omqmG8mfbLYc/1795681876/b4473fcc1cc58d1b/curta/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryheh" tvg-logo="https://logocanais.pics/imagens/discoveryheh.webp" group-title="Entretenimento",Discovery Home e Health (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FpV_PC7-jrKuWGcbPVNYWDrixZG8qXauaWTCh11Y5ZKA%2F1795681284%2F71a02e1c985dd5ff%2Fdiscoveryhh%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/Dv7fYO3CBCK-JVbahouaQSRuIaAdacYIGA1RM3mNY3Y/1795681876/5eb4d1763bea42f5/discoveryhh/index.m3u8
 
 #EXTINF:-1 tvg-id="e" tvg-logo="https://logocanais.pics/imagens/e.png" group-title="Entretenimento",E! (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FKcpmmrU1psEA9Cw9txFMz9aOSJQwTU8jqs7YLTD-ANs%2F1795681285%2Fe112a07ecfa4a2b6%2Fe%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/d6jciVvMCvNmtnlqERJ5YfeyjpceaS9mil5DlrVFHXg/1795681877/ef63f0a84df8f5b4/e/index.m3u8
 
 #EXTINF:-1 tvg-id="fashiontv" tvg-logo="https://logocanais.pics/imagens/fashiontv.png" group-title="Entretenimento",Fashion TV (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FjmGYcXDIKgM8yqIEcQebK_oJt2Wzxeww6QRQcdy9M1c%2F1795681285%2F754d11711d888add%2Ffashiontv%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/VqXHBZk7-ZbiSBJFfwh8DztTHlK-TZa9AiJZPgv_8BQ/1795681877/416c27433f0978a2/fashiontv/index.m3u8
 
 #EXTINF:-1 tvg-id="foodnetwork" tvg-logo="https://logocanais.pics/imagens/foodnetwork.png" group-title="Entretenimento",Food Network (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FYvsmF3r8biPO5k8fDNuJzkql2mo2fOIkbzrg8ASFwv4%2F1795681285%2Fbeee8237a284c3ef%2Ffoodnetwork%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/ZOftwk9FFs61mrg7mStIgCs1deFvm40KJlv9z4in8QM/1795681878/71cfd4b2efcca6c6/foodnetwork/index.m3u8
+
+#EXTINF:-1 tvg-id="gnt" tvg-logo="https://logocanais.pics/imagens/gnt.png" group-title="Entretenimento",GNT (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|4c4d19c8cda9e78bae924e07ce49cb04:4a3a155e480a67b81c5492befe07fa61
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/h9c8z9m1dq/out/v1/9b1b1aa15b4f471ea19674290554499e/cenc.mpd
+
+#EXTINF:-1 tvg-id="globoplaynovelas" tvg-logo="https://logocanais.pics/imagens/globoplaynovelas.png" group-title="Entretenimento",Globoplay Novelas (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|eab4523b0358f3c59f1da92b3f478232:253ef14355d987d4076b4544e4741977
+https://a128aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ds9ertnhrl/out/v1/cb791b7362754ba1b87d9474ccd95fa3/cenc.mpd
 
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://logocanais.pics/imagens/hgtv.png" group-title="Entretenimento",HGTV (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FuvtppwsUZ4eghS1rkuLzWn3hHhvFfMjU6Xmv_iAhykI%2F1795681287%2F646bc07b6132ae51%2Fhgtv%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/S-qriUby-yKDs_hviSfGUP34MmrQiyXmg5J_6cZkhog/1795681879/903f467bb0666c26/hgtv/index.m3u8
+
+#EXTINF:-1 tvg-id="modoviagem" tvg-logo="https://logocanais.pics/imagens/modoviagem.png" group-title="Entretenimento",Modo Viagem (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|63af4556621061c3c120488cbef43dc8:760001c8159fef838827603e3477fdff
+https://a137aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/di8gz3gds1/out/v1/a655796e8c964ea6962bb01ecf124e60/cenc.mpd
+
+#EXTINF:-1 tvg-id="multishow" tvg-logo="https://logocanais.pics/imagens/multishow.png" group-title="Entretenimento",Multishow (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|5a93ff790eca6f86ad6adb53929fe1c4:6664fa23d82cbfeaf5cdb2d662bec3b3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/x7aaupxajb/out/v1/49d602c6294147a18d798ce6abbb6957/cenc.mpd
 
 #EXTINF:-1 tvg-id="tlc" tvg-logo="https://logocanais.pics/imagens/tlc.png" group-title="Entretenimento",TLC (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FFiEewxWT9bQZX1ehCw-ufHHTXT4g2Wtj76QmDL7QrpQ%2F1795681297%2F8e2eab8bb2a917e9%2Ftlc%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/-N9jB9WOZSnuU_0uHm1BQePsxTqXoU2LI0vMJSU_Awk/1795681887/bc9e98fba7357c88/tlc/index.m3u8
 
 #EXTINF:-1 tvg-id="bandsports" tvg-logo="https://logocanais.pics/imagens/bandsports.png" group-title="Esportes",Band Sports (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FmoHU7Chv-zrA4TNn3g8Leco1o1IUSEMLnRbBe6F61dI%2F1795681283%2Ff1fa98e169b32229%2Fbandsports%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/SVmQ4vtVcanFs45ADLBZP-eK77vdsMqsatvJnj1fwpE/1795681874/60ae1339d5b4c4b9/bandsports/index.m3u8
+
+#EXTINF:-1 tvg-id="cazetv" tvg-logo="https://logocanais.pics/imagens/cazetv.webp" group-title="Esportes",Caze TV (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|ed7ff7ed8dcd0b0dfb53c885d7004cc7:8f4ceee816964d58989776735e346868
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4g7jp4flh5/out/v1/2fbb11cb471247ce8d33212a0d2ca3b6/cenc.mpd
+
+#EXTINF:-1 tvg-id="cazetv2" tvg-logo="https://logocanais.pics/imagens/cazetv.webp" group-title="Esportes",Caze TV 2 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|25e29a3ae3eedc673503096ab8179f5a:a4e004efbccd9823219db7ddea93f8be
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/mhtoezwtr5/out/v1/bc4e3d26a68140e2bd257f843f40d885/cenc.mpd
+
+#EXTINF:-1 tvg-id="cazetv3" tvg-logo="https://logocanais.pics/imagens/cazetv.webp" group-title="Esportes",Caze TV 3 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|91dae7d37dc3129695521671bc863264:c7b9e01f0a4cadfad0c67d86eb7c8276
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ese3ubkczc/out/v1/643cc7391b5c48af826b42ec34d7fdeb/cenc.mpd
+
+#EXTINF:-1 tvg-id="combate" tvg-logo="https://logocanais.pics/imagens/combate.png" group-title="Esportes",Combate (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|889b91abb7942cd810c150778d1778b2:e19efedc6f74283919dfc4a8c0728e76
+https://a92aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/eewnsmfqo7/out/v1/c83232eb75d440beb30d6a1fb6705ace/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiereclubes" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere2" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 2 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere3" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 3 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere4" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 4 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere5" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 5 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere6" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 6 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|8bf16a4ba05bcc97e6259297e50be63d:8dd97d486cbdd15cc47ea8c41b264ebb
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/0bmtb2fxcj/out/v1/b5f50c3632264d32bf857652f631b0fb/cenc.mpd
+
+#EXTINF:-1 tvg-id="premiere7" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 7 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|9ee352aac7ed8ee1cb42cfdf322b1cb0:053d635fc90e175881bef26cd29f371e
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/kqftwsvdgz/out/v1/9f866bc326d241aa9d470c52654a7bf9/cenc-sd.mpd
+
+#EXTINF:-1 tvg-id="premiere8" tvg-logo="https://logocanais.pics/imagens/premiere.png" group-title="Esportes",Premiere 8 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|19fb8464136594ce0c66fe3589e88ef4:6a0efc4a82a1e087f093c3e5de3e2a3e
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/ln7isfb6fz/out/v1/34c85840b67d46b990cf4e01fb16d24d/cenc-sd.mpd
+
+#EXTINF:-1 tvg-id="sportv" tvg-logo="https://logocanais.pics/imagens/sportv.png" group-title="Esportes",Sportv (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
+
+#EXTINF:-1 tvg-id="sportv2" tvg-logo="https://logocanais.pics/imagens/sportv.png" group-title="Esportes",Sportv 2 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|3de028eafb3b2caffec03be1c1c818b3:8fbdd8a9ae6748696bb13e547bb093fc
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd
+
+#EXTINF:-1 tvg-id="sportv3" tvg-logo="https://logocanais.pics/imagens/sportv.png" group-title="Esportes",Sportv 3 (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
 
 #EXTINF:-1 tvg-id="amc" tvg-logo="https://logocanais.pics/imagens/amc.png" group-title="Filmes e Séries",AMC (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fd5xL_gTfcEzYxggBx-r7mMCJ3s1mhBwNgDH19qMZZD4%2F1795681283%2F4b0a42c03363e585%2Famc%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/kwd1q0nz_gIhCDksvXIdNfzMuk3B2zcKJvE2BFkpM-Q/1795681875/65ad1b1fc261d6ff/amc/index.m3u8
 
 #EXTINF:-1 tvg-id="axn" tvg-logo="https://logocanais.pics/imagens/axn.png" group-title="Filmes e Séries",AXN (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FcDABFOEqHgA_E9bQJfMyhMW35VQtj4Y9plu-Tgx3A9o%2F1795681283%2Fce90e9d74ae8da03%2Faxn%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/0LGWfH8hEbavRlbpXK8nfXKCt4aHIIrAWDjqmaimK0g/1795681874/2eb07fa83c0d214b/axn/index.m3u8
+
+#EXTINF:-1 tvg-id="canal-brasil" tvg-logo="https://logocanais.pics/imagens/canalbrasil.png" group-title="Filmes e Séries",Canal Brasil (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|c78393bae527ea4a139317693510bc84:366460861aa79c1dd1cef80f08e4fa60
+https://a92aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/2glwrcj9am/out/v1/d1edbefeaf7b4a89940e300bda5ecb5a/cenc.mpd
 
 #EXTINF:-1 tvg-id="cinemax" tvg-logo="https://logocanais.pics/imagens/cinemax.png" group-title="Filmes e Séries",Cinemax (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FKSFiO97OjbLVtfMlKnWOL0OWR3gv02IpOps6TLS1dp0%2F1795681284%2F10034a4537d4c0d3%2Fcinemax%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/3HFGRk_-SR9uYRQr_3rIraaPnixRDheGQDregyweKV0/1795681876/a8a4bc8c24829177/cinemax/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryid" tvg-logo="https://logocanais.pics/imagens/discoveryid.png" group-title="Filmes e Séries",Discovery ID (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2F7DiwAyOSsVs70LSEsyEb_J8ZN4MyDmR2djWZB2NIKlo%2F1795681284%2F72ef28cd0b251734%2Fdiscoveryid%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/5uHtbPXP5tNpWWqt1G2kSvzK-ylWJhHwQmB_HrZxYWY/1795681876/8bb636d406ae782e/discoveryid/index.m3u8
 
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://logocanais.pics/imagens/hbo.png" group-title="Filmes e Séries",HBO (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FUk5gRjQt2-vNcFRkLBFapJyMEhEwSCfNKn2I9AePnZs%2F1795681286%2F6674639b5f6aef6b%2Fhbo%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/MjghRbiNf2_Tj7apWQagSlgZxvVLD3SlOGIv93WyME8/1795681878/3d9e59bc6b16ae53/hbo/index.m3u8
 
 #EXTINF:-1 tvg-id="hbo2" tvg-logo="https://logocanais.pics/imagens/hbo2.png" group-title="Filmes e Séries",HBO 2 (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FB_jGnweVL2rZb6m3ifrBzy1GBi0Kifi4_UDbK4HecU4%2F1795681286%2F847c39095f84f5c9%2Fhbo2%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/910-Ej--V2ULMTOBuK9MGYmU5O9BO47Xv2Vzw-H96kE/1795681879/a41b49e3f85c707e/hbo2/index.m3u8
 
 #EXTINF:-1 tvg-id="hbofamily" tvg-logo="https://logocanais.pics/imagens/hbofamily.png" group-title="Filmes e Séries",HBO Family (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fw0yO08yPo_K7nFquR3QIlc0XOSxEoIYuQLpRehfF_5M%2F1795681286%2F1b63052e9c832368%2Fhbofamily%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/10ICLEE7s50PFCMtB1CbUZiExin0AQ9U9X4IlLR0y-g/1795681879/f453b33a8e84487f/hbofamily/index.m3u8
 
 #EXTINF:-1 tvg-id="hbosignature" tvg-logo="https://logocanais.pics/imagens/hbosignature.png" group-title="Filmes e Séries",HBO Signature (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FZ8mTDegyCyaYzjkTUNOm9aholVmsmasabQOTnp7ROY4%2F1795681286%2F417e457afcf376dd%2Fhbosignature%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/In240nYRfqC1ngcNogTQxVVt2nTEZi1TsSbbh68hRm4/1795681879/2eb77994881a3d70/hbosignature/index.m3u8
 
 #EXTINF:-1 tvg-id="hboxtreme" tvg-logo="https://logocanais.pics/imagens/hboxtreme.png" group-title="Filmes e Séries",HBO Xtreme (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FBGqBPkmw9nPvNspRUKH6xkVfI_Tsk4dC7rngrMFxW3Q%2F1795681286%2F017323ac883daa7d%2Fhboxtreme%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/H3Zgyf0ubCbtuNojF5oE6XS17HXTiqotlfNt2Vcy2L4/1795681880/519d9a59bfd4adf5/hboxtreme/index.m3u8
 
 #EXTINF:-1 tvg-id="hboplus" tvg-logo="https://logocanais.pics/imagens/hboplus.png" group-title="Filmes e Séries",HBO+ (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FXe7pHmXTVDxvyFeXzvCuUOsf1Jum8G4NcsZnUgMJegI%2F1795681286%2F80224a7af36d804a%2Fhboplus%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/4rMGSWQzhKbAYSoVpX4EA0c4u7xyqZ42ht0wHBvgMNA/1795681880/e9bb4369500d21e8/hboplus/index.m3u8
 
 #EXTINF:-1 tvg-id="lifetime" tvg-logo="https://logocanais.pics/imagens/lifetime.png" group-title="Filmes e Séries",Lifetime (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FfWs4mgS-xp2kmFXwd-Fomy1fNo5Ms6PN5D26o_ZpiJw%2F1795681287%2F0723fce49bf2c1a5%2Flifetime%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/QsbhdIraYpZrYIfrWPUW2tcDX0Szm_WxAox6jjaJePA/1795681880/5e15bb5cd78b736e/lifetime/index.m3u8
+
+#EXTINF:-1 tvg-id="megapix" tvg-logo="https://logocanais.pics/imagens/megapix.png" group-title="Filmes e Séries",Megapix (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|cf8a2c054a3148309bce1039a9a5d603:9417daf3a25dff3f78d76c1ebb550654
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/21ilsertww/out/v1/124c84cbafc745b6b2c47fc9be606727/cenc.mpd
 
 #EXTINF:-1 tvg-id="sonychannel" tvg-logo="https://logocanais.pics/imagens/sonychannel.png" group-title="Filmes e Séries",Sony Channel (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FlUP51q5mAlX0LvTSPLo-esTACQAAbE1rbaj1NRMo-WE%2F1795681293%2Ff1ab6e6c2e65f366%2Fsonychannel%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/YpIBUlgQbgvo3AmzBOVPiKO-Wka9fkpcgEWQ_G6kJYA/1795681883/54735f8d7c91b435/sonychannel/index.m3u8
 
 #EXTINF:-1 tvg-id="sonymovies" tvg-logo="https://logocanais.pics/imagens/sonymovies.png" group-title="Filmes e Séries",Sony Movies (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FYO08mVuu99CW4PHdegPhtH0Ikhs8M6lEiSjPL5e1EK0%2F1795681293%2Fbe10782e47703852%2Fsonymovies%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/EtpFF08k33hZVqNHoyRhIcionYqhT1Z6A2QSL2adQTI/1795681883/7191c9b9f86ca086/sonymovies/index.m3u8
+
+#EXTINF:-1 tvg-id="space" tvg-logo="https://logocanais.pics/imagens/space.png" group-title="Filmes e Séries",Space (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd
+
+#EXTINF:-1 tvg-id="studiouniversal" tvg-logo="https://logocanais.pics/imagens/studiouniversal.png" group-title="Filmes e Séries",Studio Universal (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|5a16bfaa9a59bef1d955ce1401741a74:3e388e442c1f0c9ed4cb3b4e253a832b
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/vwlmqnjqyw/out/v1/5ea5d61e169f415886ade0288243bd91/cenc.mpd
+
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://logocanais.pics/imagens/tnt.png" group-title="Filmes e Séries",TNT (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd
 
 #EXTINF:-1 tvg-id="tntnovelas" tvg-logo="https://logocanais.pics/imagens/tntnovelas.png" group-title="Filmes e Séries",TNT Novelas (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FpeuPCbuKirzlxSukPuEjGtjTv6OaPrX1Sj_bOWmSn3k%2F1795681297%2Fad895f00420b02d5%2Ftntnovelas%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/mw6EDzlWke0dmtpy54B6Vh6XAR5EQJU9w1jO8DuvDPQ/1795681887/412846564941bcd6/tntnovelas/index.m3u8
 
 #EXTINF:-1 tvg-id="tntseries" tvg-logo="https://logocanais.pics/imagens/tntseries.png" group-title="Filmes e Séries",TNT Séries (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FrvtxOfK3gUZvFbtuz-_A-2u39wnWnYwAMBMkWzwDaCQ%2F1795681297%2F50b80d04a1549dd8%2Ftntseries%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/bsXp7ewbmF33fdXzPyGv1bYAonP8AlWUESVBYHXWLJM/1795681887/ebab60fafdccfe75/tntseries/index.m3u8
 
 #EXTINF:-1 tvg-id="telecineaction" tvg-logo="https://logocanais.pics/imagens/telecineaction.png" group-title="Filmes e Séries",Telecine Action (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FbNeW2-R5EzHG5MGhES82NtRTBb9YZ4VUATCPwGKxStQ%2F1795681296%2Fb7b4d7c8e6c2601b%2Ftelecineaction%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/V80veKTfyqzc_wQcjCx1OOAn-yBL_fE1DWV1ZKme-H8/1795681886/eb9ffb3025792191/telecineaction/index.m3u8
 
 #EXTINF:-1 tvg-id="telecinecult" tvg-logo="https://logocanais.pics/imagens/telecinecult.png" group-title="Filmes e Séries",Telecine Cult (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FaLgZw2OGsrNGCpYe3E1AvIQHU13DNabtIUOB-EnXoQ4%2F1795681296%2Fdb91690076ef2de0%2Ftelecinecult%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/4_QLO9w4E4K3cYGi3XY6FQ1PR7Jp0XcGd9_adkp9uiM/1795681886/9b11c87df98a3682/telecinecult/index.m3u8
 
 #EXTINF:-1 tvg-id="telecinefun" tvg-logo="https://logocanais.pics/imagens/telecinefun.png" group-title="Filmes e Séries",Telecine Fun (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FZKaf-2rokMBq5-vySdC1vFIhWqTiP8guQQ4B_ytoQLo%2F1795681296%2Fe784872c278542a3%2Ftelecinefun%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/9ANCoC62uZlqdmS_jwxDKC2DL9Y3M6SpeVEjzFNSE4c/1795681886/db31cb342f0f4700/telecinefun/index.m3u8
 
 #EXTINF:-1 tvg-id="telecinepipoca" tvg-logo="https://logocanais.pics/imagens/telecinepipoca.png" group-title="Filmes e Séries",Telecine Pipoca (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2F5A20eS7sM4WLt1vi4NCcIFIrvuNKxAuxQFsL0AfMrkc%2F1795681296%2F91631cd1840be928%2Ftelecinepipoca%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/DGYUbP9gawinGFPDM70WGiDzHanQffe1s3FtiMxjGbU/1795681886/71b0ae093d78bbf8/telecinepipoca/index.m3u8
 
 #EXTINF:-1 tvg-id="telecinepremium" tvg-logo="https://logocanais.pics/imagens/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FHzDqUDitulHpWAhl-Bs6VizOtIuug1NJ1Jf5Equ85Io%2F1795681297%2F0dcdc3fdfbeb4ac8%2Ftelecinepremium%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/JmzTp7_HYKs2Vt8fv4zosXWl0VbLXPSvWssczUC5xAs/1795681887/88f5861f36c6745e/telecinepremium/index.m3u8
 
 #EXTINF:-1 tvg-id="telecinetouch" tvg-logo="https://logocanais.pics/imagens/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fc9KAwx4fvf4-8QwQA0GzHfDsrxwz4tIowgdI_zZWbZU%2F1795681297%2F320caef9ff820070%2Ftelecinetouch%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/WeRsbESZSu6iXSEXk4fRa5RvWeZ4sDiz8XAqhX_RgNI/1795681887/ced5b21b55e3edab/telecinetouch/index.m3u8
+
+#EXTINF:-1 tvg-id="usa" tvg-logo="https://logocanais.pics/imagens/usa.png" group-title="Filmes e Séries",USA (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|1c120d747aab0149ab6235ff3f42078d:f2b7011c32caf893ae4ab79946155b8e
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/hb7z5gcmqa/out/v1/73ea2601a707404e832489bb0e960813/cenc.mpd
+
+#EXTINF:-1 tvg-id="universaltv" tvg-logo="https://logocanais.pics/imagens/universaltv.png" group-title="Filmes e Séries",Universal TV (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|3b02329fbaee56c1234d84de3835526d:ee78fe2883f8b3fa61d33826c95044cb
+https://a105live-pv-ta-amazon.akamaized.net/gru-nitro/live/clients/dash/enc/rjvrhjt8td/out/v1/42dd3f040e154f878ef62c3dfd90d03f/cenc.mpd
 
 #EXTINF:-1 tvg-id="warnertv" tvg-logo="https://logocanais.pics/imagens/warnertv.png" group-title="Filmes e Séries",Warner TV (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FbbuoL1n_6Q9NtrqB-qKD7QYPScAjyLljykv9sOUMkHc%2F1795681298%2F1840c3eec7e8b697%2Fwarnertv%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/QGtRgJrcLNmdmt17xg63Dia7UpS6Aa1G_T8rB37ai4E/1795681888/29dc55166f1885e3/warnertv/index.m3u8
 
 #EXTINF:-1 tvg-id="cartoonnetwork" tvg-logo="https://logocanais.pics/imagens/cartoonnetwork.png" group-title="Infantil",Cartoon Network (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FX0nMPPFb6jgp4hZDBVUPkoiqJGAZWchzUjGwk5sHPCo%2F1795681283%2Fdaa864ee533ac360%2Fcartoonnetwork%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/0HAoRu6s2t7hSi7mij1X6sHdGR62fRUL2eRFhgq0WT8/1795681875/2366d63760aeda5a/cartoonnetwork/index.m3u8
 
 #EXTINF:-1 tvg-id="cartoonito" tvg-logo="https://logocanais.pics/imagens/cartoonito.png" group-title="Infantil",Cartoonito (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FLAqQATXicXbZAo7ueANBuAw3rsqTDyPGC3QpzaltgBE%2F1795681283%2F560e050ea19ca5f0%2Fcartoonito%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/yKfDXoSh-ZicVJMMWnUYZ4gTvWse3aJMUB7VIpjirHE/1795681876/b1a23597258ac876/cartoonito/index.m3u8
 
 #EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://logocanais.pics/imagens/discoverykids.png" group-title="Infantil",Discovery Kids (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FmQgNRIYXVwyH5pLix7NizP9yIovCWuFad1cCxnaGNXs%2F1795681284%2F272ff99aedcc0ebf%2Fdiscoverykids%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/AKJd8kJSEhz2reP_DPo5VDgLa7i3NP2uBdtHMt8Q1Bs/1795681876/a1919ef02391af12/discoverykids/index.m3u8
+
+#EXTINF:-1 tvg-id="gloob" tvg-logo="https://logocanais.pics/imagens/gloob.png" group-title="Infantil",Gloob (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|543f29c521f94da05621232642b63c9f:5ea2c9b188bec0b6d438f5514278b67f
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/sjbrjzcmin/out/v1/17ffd96f922c4370977c4780c31b4558/cenc.mpd
+
+#EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://logocanais.pics/imagens/gloobinho.png" group-title="Infantil",Gloobinho (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|04e98050020f0179d09d71cc858f9fad:c7c12371f6e94e0342e94f188f0159f5
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/gndmtl8lkm/out/v1/7543a7700b96455c8e66a65e89ea4ead/cenc.mpd
 
 #EXTINF:-1 tvg-id="tooncast" tvg-logo="https://logocanais.pics/imagens/tooncast.png" group-title="Infantil",Tooncast (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2F81KHAH-rP5OsOBhZflE0hsM6_JfKm_K-56O06pLBSzc%2F1795681297%2F5210a895883a4712%2Ftooncast%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/_sdexmupKQtA_BmiOVLyoieV5Z_8Z48HyzZJAHE98i0/1795681888/7139044caab8b273/tooncast/index.m3u8
 
 #EXTINF:-1 tvg-id="agromais" tvg-logo="https://logocanais.pics/imagens/agromais.png" group-title="Notícias",Agro+ (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2FIKls5XJn4RaqG0hjt4cxRHWvn7HXDS8ifpf-utzjcJw%2F1795681283%2F6238d0519d1cece2%2Fagromais%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/B-WA_LNGml3T7OVD4_AN0VlaZ3TdEDRlcWFE5-Tvxxg/1795681875/dc276fd443d24b81/agromais/index.m3u8
 
 #EXTINF:-1 tvg-id="bandnews" tvg-logo="https://logocanais.pics/imagens/bandnews.png" group-title="Notícias",Band News (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Fhqf6tcxuhk.singularcdn.net.br%2Flive%2F0194f580-44cc-7dca-a222-739a761969e1%2Fs1%2Fplaylist_nova-a.m3u8%3Fsjwt%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5NTY1OTY4MywibmJmIjoxNzk1NjU5NjgzLCJleHAiOjE3OTgyNTE2ODMsInVyaV9zdWIiOiIvMDE5NGY1ODAtNDRjYy03ZGNhLWEyMjItNzM5YTc2MTk2OWUxLyIsInVpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.AdraXHrKyjV07yGNLDAhJSiza361Z3e3-wGFK8DEQoY%26uid%3D81e58da8-a1c4-4c6a-971f-b8c8a8e97141&e=.m3u8
+https://hqf6tcxuhk.singularcdn.net.br/live/0194f580-44cc-7dca-a222-739a761969e1/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5NTY2MDI3NSwibmJmIjoxNzk1NjYwMjc1LCJleHAiOjE3OTgyNTIyNzUsInVyaV9zdWIiOiIvMDE5NGY1ODAtNDRjYy03ZGNhLWEyMjItNzM5YTc2MTk2OWUxLyIsInVpZCI6IjgxZTU4ZGE4LWExYzQtNGM2YS05NzFmLWI4YzhhOGU5NzE0MSIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.o8IhRQWdCoNUd5VheLe9e7QbH8e_u1ZPqP8dfMrhg-Q&uid=81e58da8-a1c4-4c6a-971f-b8c8a8e97141
 
-#EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://logocanais.pics/imagens/cnnbrasil.png" group-title="Notícias",CNN Brasil (Servidor Alternativo)
+#EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://logocanais.pics/imagens/cnnbrasil.png" group-title="Notícias",CNN Brasil (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Forigin-fast.b-cdn.net%2FCNN_BRASIL%2Findex.m3u8&e=.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|7685b7e26da7cdd166f53216783de078:89b8a2d4e233a8831693615fe0d03509
+https://abgqheyaaaaaaaamhe245wvx4hfc6.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zmpncidiwv/out/v1/56b839863a7642e2a99a8b5144341aea/cenc.mpd
+
+#EXTINF:-1 tvg-id="globonews" tvg-logo="https://logocanais.pics/imagens/globonews.png" group-title="Notícias",Globo News (Servidor Premium)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|57ecd6a2086b99cc1d0452b102a7043b:11386090a315fc1e88427aeed4a60900
+https://a92aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/dsfrp5mjrb/out/v1/9fa07e663bc94e9f93c53726a558478a/cenc.mpd
 
 #EXTINF:-1 tvg-id="jpnews" tvg-logo="https://logocanais.pics/imagens/jpnews.webp" group-title="Notícias",JP News (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Flivestream.st%2Flive%2Fsecure%2Fa3EbEIeQU_cBGRKYtXXgkbVxHuPYkXorUYTSQCSevTY%2F1795681287%2F2d8a9893b9f6a7a1%2Fjpnews%2Findex.m3u8&e=.m3u8
+https://livestream.st/live/secure/QjeS6M93cS6tVpfquQyVS3YKKdeQ9767UAitYVEO38c/1795681880/577474cf72c79569/jpnews/index.m3u8
 
 #EXTINF:-1 tvg-id="recordnews" tvg-logo="https://logocanais.pics/imagens/recordnews.png" group-title="Notícias",Record News (Servidor Premium)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-http://127.0.0.1:45789/hls.m3u8?u=https%3A%2F%2Frnw-rn-soultv.otteravision.com%2Frnw%2Frn%2Frnw_rn.m3u8&e=.m3u8
+https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8
